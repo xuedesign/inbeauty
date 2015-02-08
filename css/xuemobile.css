@@ -1,0 +1,61 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2014/02  
+
+***********************************************************************************************/
+
+/*1024桌機適用*/
+@media screen and (min-width:960px) and (max-width:1251px){
+header{ width:994px}
+#contenter{ width:994px}	
+}
+
+/*768平板畫面*/
+@media screen and (min-width:768px) and (max-width:959px){
+#page_top{ height:150px}	
+header, #contenter{ width:724px}
+header h1, nav{ display:block; float:none; width:100%; margin:0 auto}
+header h1{ margin-bottom:15px}
+}
+
+/*小平板與手機之間*/
+@media screen and (max-width: 767px) {
+#page_top{ height:150px}	
+header{ width:95%}
+header h1, nav, #contenter section, #contenter aside{ display:block;float:none; width:100%; margin:0 auto}
+header h1{ margin-bottom:15px}
+.box_nav li a{ padding:15px 22px; font-size:0.938em;}
+#contenter{ width:90%}
+.clean{ display: none}
+}
+
+/*480手機畫面*/
+@media screen and (max-width:481px){
+#page_top{ display:block; position:relative; height:100px}
+header h1{display:block; float:right; width:30%}
+nav{ display: block; position:absolute; float:left; width:50%; z-index:99}
+.box_nav{display: none}
+.toggle{
+	display: inline-block;
+	background: #D8540A;
+    padding: 10px 15px;
+    color: #FFF}
+.box_nav li{ float: none}
+.box_nav li a{ padding: 10px 15px}
+.box_nav li:hover ul {
+	position: relative;
+	display: block;
+	background: transparent}
+.box_nav li:hover ul li{ background: transparent}
+.box_nav li:hover ul li a{ padding-left: 30px}
+.arrow-bottom {top: 20px}
+
+#contenter{ clear:both; width:306px}
+#contenter section, #contenter aside{float:none; width:280px; margin:0 auto}
+.clean{ display: none}
+}
+
+
+

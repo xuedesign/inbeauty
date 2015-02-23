@@ -1,0 +1,118 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2015/02
+
+***********************************************************************************************
+		1 通用
+		2.基本結構
+		  2.1 頁面頂部
+		  2.2 網站主選單
+		  2.3 完美底部布局
+		  2.4 版權列
+		  2.5 頁面中間區塊
+		  2.6 側邊產品選單
+		  2.7 返回頂端紐
+		3.內頁結構
+		  3.1 首頁
+		  3.2 關於采葳
+		  3.3 最新消息+媒體名人
+		  3.4 服務項目
+		  3.5 醫師團隊
+		  3.6 門診資訊
+		  3.7 彈跳視窗
+***********************************************************************************************/
+
+/* 1. 通用 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+body{
+	background:#FFF;
+	font-family: "微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:22px;
+	color:#231815}
+a:link {text-decoration:none; color:#545147}
+a:visited {text-decoration:none; color:#8c8c8c}
+a:hover {text-decoration:underline; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+/* 2. 首頁  
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#wrap{ display:block; width:100%; min-width:1280px}
+
+/* 2.1 頁面頂部 */
+header{ 
+    display:block;
+	width:100%;
+	min-width:1280px;
+	height:156px;
+	background: url(../images/bg_header.png) repeat-x}
+#box_top{
+	display:block;
+	width:1240px;
+	height:156px;
+	margin:0 auto;
+	padding:0}
+h1 a{ 
+    display:block;
+	float:left;
+	width:375px;
+	height:86px;
+	background:url(../images/bg_h1.png) no-repeat;
+	text-indent:-9999px;
+	margin:11px 0 0 15px}
+.top_right{
+	display:block;
+	float:right;
+	width:295px;
+	text-align:right}
+.top_right ul{ /*padding-left:25px*/}
+.top_right li{
+	display:block;
+	float:right/*left*/;
+	font-size:0.938em;
+	line-height:28px}
+.iconlink-01 a, .iconlink-02 a, .iconlink-03 a, .iconlink-04 a{
+	display:block;
+	float:left;
+	width:30px;
+	height:26px;
+	font-size:0;
+	line-height:0;
+	text-indent:-9999px;
+	margin: 0 3px}
+.iconlink-01 a{ background:url(../images/icon_link.png) no-repeat}
+.iconlink-02 a{ background:url(../images/icon_link.png) 0 -31px no-repeat}
+.iconlink-03 a{ background:url(../images/icon_link.png) 0 -62px no-repeat}
+.iconlink-04 a{ background:url(../images/icon_link.png) 0 -93px no-repeat}					
+	
+/* 2.3 完美底部布局*/
+html, body, #wrap {height: 100%}
+body > #wrap {height: auto; min-height: 100%}
+#main_content{ padding-bottom:189px}
+.clearfix:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden}
+.clearfix {display: inline-block}
+* html .clearfix { height: 1%}
+.clearfix {display: block}
+
+/* 2.4 版權列 */
+footer{ 
+    display:block;
+    width:100%;
+	min-width:1280px;
+	height:189px;
+    background: url(../images/bg_footer.png) repeat-x;
+    margin-top: -189px;
+	color:#a9a28d}		
+

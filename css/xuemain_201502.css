@@ -72,7 +72,8 @@ h1 a{
 	display:block;
 	float:right;
 	width:295px;
-	text-align:right}
+	text-align:right;
+	margin:33px 41px 0 0}
 .top_right ul{ /*padding-left:25px*/}
 .top_right li{
 	display:block;
@@ -83,15 +84,125 @@ h1 a{
 	display:block;
 	float:left;
 	width:30px;
-	height:26px;
+	height:30px;
 	font-size:0;
 	line-height:0;
 	text-indent:-9999px;
 	margin: 0 3px}
 .iconlink-01 a{ background:url(../images/icon_link.png) no-repeat}
-.iconlink-02 a{ background:url(../images/icon_link.png) 0 -31px no-repeat}
-.iconlink-03 a{ background:url(../images/icon_link.png) 0 -62px no-repeat}
-.iconlink-04 a{ background:url(../images/icon_link.png) 0 -93px no-repeat}					
+.iconlink-01 a:hover{ background:url(../images/icon_link.png) -30px 0 no-repeat}
+.iconlink-02 a{ background:url(../images/icon_link.png) 0 -30px no-repeat}
+.iconlink-02 a:hover{ background:url(../images/icon_link.png) -30px -30px no-repeat}
+.iconlink-03 a{ background:url(../images/icon_link.png) 0 -60px no-repeat}
+.iconlink-03 a:hover{ background:url(../images/icon_link.png) -30px -60px no-repeat}
+.iconlink-04 a{ background:url(../images/icon_link.png) 0 -90px no-repeat}	
+.iconlink-04 a:hover{ background:url(../images/icon_link.png) -30px -90px no-repeat}
+.phone_number{
+	clear:both;
+	text-align:right;
+	font-size:1.375em;
+	color:#83725a;
+	line-height:40px;
+	text-shadow: 1px 1px 0 #fff;
+	padding-right:5px}
+
+/* 2.2 網站主選單 */
+nav{ display:block}
+nav .ntitle{ display:none}
+#topnav {
+	display:block;
+	float:left;
+	width: 100%;/*1037px*/ 
+	margin: 9px 0 0 0; 
+	padding: 0;
+	list-style: none;
+	font-size: 1em}
+#topnav li {
+	position: relative;
+	float: left;
+	margin: 0; 
+	padding: 0}
+#topnav li a {
+	display:block;
+	float: left;
+	width:155px;
+	height:44px; 
+	text-indent: -9999px;
+	background:url(../images/bg_nav.png) no-repeat}
+#topnav a.nav_01 { background-position: 0 0}
+#topnav a:hover.nav_01 { background-position: 0 -49px}
+#topnav a.nav_02 { background-position: -155px 0}
+#topnav a:hover.nav_02 { background-position: -155px -49px}
+#topnav a.nav_03 { background-position: -310px 0}
+#topnav a:hover.nav_03, #topnav li:hover a.nav_03{ background-position: -310px -49px}
+#topnav a.nav_04 { background-position: -465px 0}
+#topnav a:hover.nav_04, #topnav li:hover a.nav_04{ background-position: -465px -49px}
+#topnav a.nav_05 { background-position: -620px 0}
+#topnav a:hover.nav_05 { background-position: -620px -49px}
+#topnav a.nav_06 { background-position: -775px 0}
+#topnav a:hover.nav_06 { background-position: -775px -49px}
+#topnav a.nav_07 { background-position: -930px 0}
+#topnav a:hover.nav_07, #topnav li:hover a.nav_07{ background-position: -930px -49px}
+#topnav a.nav_08 { background-position: -1085px 0}
+#topnav a:hover.nav_08 { background-position: -1085px -49px}
+
+#topnav li .sub {
+	display: none;
+	position: absolute;	
+	float: left;
+	top: 50px; 
+	left:0;
+	z-index:700;
+	background:#fff;
+	padding: 20px 0 20px;
+	border:1px solid #CCC;
+	/*--Bottom right rounded corner--*/
+	-moz-border-radius-bottomright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	/*--Bottom left rounded corner--*/
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px}
+#topnav li .sub.service{ left: -129px; padding: 20px 20px 20px}	
+#topnav li .row {clear: both; float: left; width: 100%; margin-bottom: 10px}	
+#topnav li .sub ul{
+	float: left;
+	width: 155px;
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+	/*border-right:1px solid #CCC*/}
+#topnav .sub ul li {
+	width: 100%;
+	color: #fff;
+	text-align:center}
+#topnav .sub ul li h3{
+	padding:0 0 20px 0;  
+	margin: 0;
+	background:url(../images/bg_navh2.png) 25px 30px no-repeat;
+	font-size: 1em;
+	font-weight: normal;
+	color:#83725A}
+#topnav .sub ul li a {
+	display: block;
+	float: none; 
+	height: auto;
+	text-indent: 0; /*--Reset text indent--*/
+	background:none;
+	padding: 7px 5px 7px 0;
+	text-decoration: none;
+	color: #252136}
+#topnav .sub ul li a:hover {color:#f50}
+#topnav .sub .short_item{
+	width:155px;
+	padding:0;
+	margin:0}
+#topnav .sub .short_item li a{
+	margin:0;
+	padding:7px 0}
+#topnav .sub .short_item li h3{ 
+    background:url(../images/bg_navh2.png) 25px 30px no-repeat} 						
 	
 /* 2.3 完美底部布局*/
 html, body, #wrap {height: 100%}
@@ -114,5 +225,89 @@ footer{
 	height:189px;
     background: url(../images/bg_footer.png) repeat-x;
     margin-top: -189px;
-	color:#a9a28d}		
+	color:#a9a28d}
+	
+/* 3.內頁結構
+===============================================================================================*/
+/*3-1 首頁*/
+#box_linefriend{
+	display:none;
+	width:300px;
+	height:400px;
+	text-align:center}
+#box_linefriend h3{
+	font-size:1.25em;
+	line-height:35px;
+	color:#307A00}
+#box_linefriend p{
+	font-size:0.938em;
+	line-height:25px;
+	margin-bottom:15px}
+#box_message{
+	display: none;
+	width:800px;
+	padding-bottom:20px}
+#box_message h3{
+	font-size:1.25em;
+	line-height:35px;
+	text-align:center;
+	padding-bottom:10px;
+	border-bottom:1px solid #333;
+	color:#987067}
+#box_message h3 span{
+	font-size:0.75em;
+	color:#CFB397;
+	font-weight:normal}
+.box_message{
+	width:750px;
+	margin:15px auto 0 auto}
+.box_message tr{ border-bottom:1px dashed #D7D7D7}	
+.box_message td{
+	padding:10px;
+	font-size:0.938em;
+	vertical-align:middle}
+.box_message .ttd{
+	width:16%; 
+    text-align:right;
+	vertical-align:middle}
+.box_message .pot_star{ color:#f50; font-weight:bold}
+.box_message img{ vertical-align: middle; margin-right:15px}
+.text_area{
+	display: inline-block;
+	font-family: "微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:0.938em;
+	letter-spacing:1px;
+	border:1px solid #999;
+	padding:8px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px}
+#box_message textarea{
+	width:350px;
+    font-family: "微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:.938em}	
+.w78{ width:78px}
+.w100{ width:100px}
+.w350{ width:350px}
+.box_buttom{
+	display:block;
+	width:400px;
+	margin:0 auto;
+	padding:15px 0;
+	text-align:center}
+.btn_empty{
+	display:inline-block;
+	padding:5px 20px;
+	margin:0 10px;
+	background:#CFB397;
+	border:none;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	font-size:0.938em;
+	line-height:30px;
+	letter-spacing:1px;
+	color:#FFF;
+	cursor:pointer}
+.btn_empty:hover{ background:#987067}					
 

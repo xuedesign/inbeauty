@@ -14,7 +14,7 @@
 		  2.5 頁面中間區塊
 		  2.6 側邊產品選單
 		  2.7 返回頂端紐
-		3.內頁結構
+		3.頁面結構
 		  3.1 首頁
 		  3.2 關於采葳
 		  3.3 最新消息+媒體名人
@@ -33,16 +33,16 @@ body{
 	font-size:100%;
 	line-height:22px;
 	color:#231815}
-a:link {text-decoration:none; color:#545147}
+a:link {text-decoration:none; color:#CFB397}
 a:visited {text-decoration:none; color:#8c8c8c}
-a:hover {text-decoration:underline; color:#F50}
+a:hover {text-decoration:underline; color:#987067}
 form{margin:0; padding:0}
 image{border:0}
 
 .clean{ clear:both}
 .hidden{ display:none}
 
-/* 2. 首頁  
+/* 2. 基本結構 
 -----------------------------------------------------------------------------------------------
 ===============================================================================================*/
 #wrap{ display:block; width:100%; min-width:1280px}
@@ -74,10 +74,10 @@ h1 a{
 	width:295px;
 	text-align:right;
 	margin:33px 41px 0 0}
-.top_right ul{ /*padding-left:25px*/}
+.top_right ul{}
 .top_right li{
 	display:block;
-	float:right/*left*/;
+	float:right;
 	font-size:0.938em;
 	line-height:28px}
 .iconlink-01 a, .iconlink-02 a, .iconlink-03 a, .iconlink-04 a{
@@ -112,7 +112,7 @@ nav .ntitle{ display:none}
 #topnav {
 	display:block;
 	float:left;
-	width: 100%;/*1037px*/ 
+	width: 100%; 
 	margin: 9px 0 0 0; 
 	padding: 0;
 	list-style: none;
@@ -171,8 +171,7 @@ nav .ntitle{ display:none}
 	width: 155px;
 	list-style: none;
 	margin: 0; 
-	padding: 0;
-	/*border-right:1px solid #CCC*/}
+	padding: 0}
 #topnav .sub ul li {
 	width: 100%;
 	color: #fff;
@@ -201,8 +200,7 @@ nav .ntitle{ display:none}
 #topnav .sub .short_item li a{
 	margin:0;
 	padding:7px 0}
-#topnav .sub .short_item li h3{ 
-    background:url(../images/bg_navh2.png) 25px 30px no-repeat} 						
+#topnav .sub .short_item li h3{ background:url(../images/bg_navh2.png) 25px 30px no-repeat} 						
 	
 /* 2.3 完美底部布局*/
 html, body, #wrap {height: 100%}
@@ -226,8 +224,25 @@ footer{
     background: url(../images/bg_footer.png) repeat-x;
     margin-top: -189px;
 	color:#a9a28d}
+footer p, footer li{
+	font-size:0.813em;
+	line-height:22px}	
+footer p a, footer p a:hover, footer p a:visited{ color:#a9a28d; text-decoration:none}
+#foot-main{
+	display:block;
+	width:1240px;
+	margin:0 auto}
+.copyright{ line-height:35px; text-align:center}
+#foot-main h4, .clinic_info, .clinic_note{ display:block; float:left; margin-top:30px}
+#foot-main h4{
+	background: url(../images/bg_fotlogo.png) no-repeat;
+	width:296px;
+	height:68px;
+	text-indent:-9999px;
+	margin:30px 86px 0 26px}
+.clinic_info{ margin-right:50px}		
 	
-/* 3.內頁結構
+/* 3.頁面結構
 ===============================================================================================*/
 /*3-1 首頁*/
 #box_linefriend{

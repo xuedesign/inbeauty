@@ -245,6 +245,12 @@ footer p a, footer p a:hover, footer p a:visited{ color:#a9a28d; text-decoration
 /* 3.頁面結構
 ===============================================================================================*/
 /*3-1 首頁*/
+#banner_slider{
+	display:block;
+	width:100%;
+	min-width:1240px;
+	height:450px;
+	margin:0 auto}
 #box_linefriend{
 	display:none;
 	width:300px;

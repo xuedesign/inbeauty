@@ -120,6 +120,14 @@
            </div><!--//end #box_top-->   
         </header>
         
+        <div id="banner_slider" class="flexslider">
+           <ul class="slides">
+              <li style="background:url(images/banner_01.jpg) center"><a href="#">&nbsp;</a></li>
+              <li style="background:url(images/banner_02.jpg) center"><a href="#">&nbsp;</a></li>
+              <li style="background:url(images/banner_03.jpg) center"><a href="#">&nbsp;</a></li>
+           </ul>
+        </div>
+        
         <div id="container">
            
         </div>
@@ -127,8 +135,8 @@
         <!-- Lightbox 諮詢表單-->
         <div id="box_message">
            <h3>Message 線上留言或預約 <span>有任何療程問題，請留下您的連絡資訊，我們會儘快回覆供你參考。</span></h3>
-           <form action="">
-             <table width="100%" class="box_message">
+           <form>
+             <table class="box_message">
                    <tr>
                      <td class="ttd"><span class="pot_star">*</span>姓名：</td>
                      <td><input name="name" type="text" class="text_area w350"></td>
@@ -190,7 +198,7 @@
            <li>服務時間：週一～週五10:00~20:00  週六、日教育訓練休診</li>
            <li>診所位置：台北市中正區重慶南路一段75號11樓</li>
         </ul>
-        <p class="clinic_note">醫療機構網際網路資訊管理辦法聲明：<br>禁止任何網際網路服務業者轉錄本網路資訊之內容供人點閱。但以網路搜尋<br>或超連結方式，進入本醫療機構之網址（域）直接點閱者，不在此限。</p>
+        <p class="clinic_note">醫療機構網際網路資訊管理辦法聲明：<br>禁止任何網際網路服務業者轉錄本網路資訊之內容供人點閱。但以網路搜尋<br>或超連結方式，進入本醫療機構之網址（域）直接點閱者，不在此限。</p>
         <br class="clean">
         <p class="hidden">製作團隊：版面設計+網頁前端/開始設計工作室 Elmo  網站程式/開店達康 Alex</p>
      </div>
@@ -203,7 +211,7 @@ $(this).find(".sub").css({width:rowWidth})},timeout:500,out:function(){$(this).f
 </script>
 <script src="script/jquery.flexslider.js"></script>
 <script> $(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}); </script>      
-<script src="script/jquery.ui.totop.js"></script>
+<!--<script src="script/jquery.ui.totop.js"></script>-->
 <script src="script/easing.js"></script>
 <script> $(document).ready(function(){$().UItoTop({easingType:"easeOutQuart"})}); </script>
 <script src="script/jquery.fancybox.pack.js"></script>

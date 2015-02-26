@@ -13,7 +13,7 @@ window.onload = externalLinks;
 
 //圖片延遲載入
 $(function() {
-  $("#page_container img").lazyload({placeholder : "../images/grey.gif",effect: "fadeIn"});
+  $("#container img").lazyload({placeholder : "../images/grey.gif",effect: "fadeIn"});
       });
 	  
 //側邊產品選單

@@ -33,9 +33,9 @@ body{
 	font-size:100%;
 	line-height:22px;
 	color:#231815}
-a:link {text-decoration:none; color:#CFB397}
-a:visited {text-decoration:none; color:#8c8c8c}
-a:hover {text-decoration:underline; color:#987067}
+a:link {text-decoration:underline; color:#CFB397}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#987067}
 form{margin:0; padding:0}
 image{border:0}
 
@@ -227,7 +227,6 @@ footer{
 footer p, footer li{
 	font-size:0.813em;
 	line-height:22px}	
-footer p a, footer p a:hover, footer p a:visited{ color:#a9a28d; text-decoration:none}
 #foot-main{
 	display:block;
 	width:1240px;
@@ -240,7 +239,18 @@ footer p a, footer p a:hover, footer p a:visited{ color:#a9a28d; text-decoration
 	height:68px;
 	text-indent:-9999px;
 	margin:30px 86px 0 26px}
-.clinic_info{ margin-right:50px}		
+#foot-main a, #foot-main a:hover, #foot-main a:visited{ color:#a9a28d; text-decoration:none}	
+.clinic_info{ margin-right:50px}
+.clinic_info span{ margin-right:20px}
+
+/* 2.5 頁面中間區塊 */
+#container{
+	display:block;
+	width:1240px;
+	margin:30px auto 50px auto}
+/* 2.6 側邊產品選單 */
+/* 2.7 返回頂端紐 */
+		  		
 	
 /* 3.頁面結構
 ===============================================================================================*/
@@ -330,5 +340,51 @@ footer p a, footer p a:hover, footer p a:visited{ color:#a9a28d; text-decoration
 	letter-spacing:1px;
 	color:#FFF;
 	cursor:pointer}
-.btn_empty:hover{ background:#987067}					
+.btn_empty:hover{ background:#987067}
+
+#hot_service, #hot_maincon, #hot_inbeauty{
+	display:block;
+	width:100%}
+#hot_service{ height:42px; margin-bottom:45px}
+#hot_service h3{
+	display:block;
+	float:left;
+	background:url(../images/title_hot-service.png) no-repeat;
+	width:190px;
+	height:42px;
+	text-indent:-9999px}
+#hot_service li a, #hot_service li a:visited{
+	display: block;
+	float:left;
+	width:170px;
+	height:37px;
+	padding:5px 10px 0;
+	overflow:hidden;
+	background: -webkit-gradient(linear, left top, right top, from(#a68b8c), to(#997a7b));
+	background: -webkit-linear-gradient(top, #a68b8c, #997a7b);
+	background: -moz-linear-gradient(top, #a68b8c, #997a7b);
+	background: -o-linear-gradient(top, #a68b8c, #997a7b);
+	background: -ms-linear-gradient(top, #a68b8c, #997a7b);
+	background: linear-gradient(top, #a68b8c, #997a7b);
+	background-color: #a68b8c;
+	margin-left:20px;
+	font-size:0.875em;
+	line-height:30px;
+	color: #FFF;
+	text-decoration:none}
+#hot_service li a:hover{ color:#CFB397; text-decoration:none}		
+#hot_maincon{ margin-bottom:45px}
+#box_ad, #box_media, #box_lastnews{ display:block; float:left}
+#box_ad{ width:530px}
+#box_ad li{
+	display:block;
+	float:left;
+	width:245px;
+	height:165px;
+	margin:0 20px 20px 0}
+#box_ad li img{ border:1px solid #CCC}	
+#box_media{ width:390px; margin-left:20px}
+#box_lastnews{ width:280px}
+#hot_inbeauty{}
+#list_service{}					
 

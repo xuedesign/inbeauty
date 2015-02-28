@@ -1,7 +1,7 @@
 .menulist, .menulist ul {
  margin: 0;
  padding: 1px;
- width: 200px;
+ width: 295px;
  list-style: none}
 
 .menulist ul {
@@ -23,9 +23,9 @@
 .menulist li a {
  display: block;
  padding: 8px 4px 8px 30px;
- color: #fff;
+ color: #545147;
  letter-spacing:1px;
- background:#5aa11b;
+ background: url(../images/pot_brown.png) 10px 15px no-repeat #efe0d2;
  text-decoration: none;
  margin: 0 0 5px 0}
 
@@ -35,24 +35,24 @@
 	color:#252136;
 	border-bottom:1px dashed #E4E4E4}
 .menulist li li a:hover{
-	 color: #F50;
+	 color:#987067;
      background:none;
      padding: 8px 4px}	 
 
 * html .menulist li a { border-width: 0; margin: 1px}
 .menulist a:hover, .menulist a.highlighted:hover, .menulist a:focus {
  color: #FFF;
- background: #F07A18;
+ background: #d4a696;
  padding: 8px 4px 8px 30px;
  margin: 0 0 5px 0;
  text-shadow:none}
 .menulist a.highlighted, .menulist a.navin{
  /*color: #FFF;
  background-color:#F6B51D;*/
- color:#252136;
- background:#cad6c0;
+ color:#fff;
+ background:#d4a696;
  font-weight:bold;
- text-shadow:1px 1px 0 #eefce2;
+ /*text-shadow:1px 1px 0 #eefce2;*/
  margin: 0 0 5px 0}
 .menulist a .subind {float: right}
 *:first-child+html .menulist li { float: left; width: 100%}

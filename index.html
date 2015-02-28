@@ -12,7 +12,6 @@
 <link rel="stylesheet" href="css/xuemain_201502.css"/>
 <link rel="stylesheet" href="css/flexslider.css"/>
 <link rel="stylesheet" href="css/jquery.fancybox.css"/>
-<script src="http://code.jquery.com/jquery.min.js"></script>
 <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -370,6 +369,7 @@
      </div>
   </footer>
 
+<script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="script/jquery.hoverIntent.minified.js"></script>
 <script>
 $(document).ready(function(){$("ul#topnav li .sub").css({opacity:"0"});$("ul#topnav li").hoverIntent({sensitivity:2,interval:100,over:function(){$(this).find(".sub").stop().fadeTo("fast",1).show();(function(a){jQuery.fn.calcSubWidth=function(){rowWidth=0;a(this).find("ul").each(function(){rowWidth+=a(this).width()})}})(jQuery);if(0<$(this).find(".row").length){var a=0;$(this).find(".row").each(function(){$(this).calcSubWidth();rowWidth>a&&(a=rowWidth)});$(this).find(".sub").css({width:a});$(this).find(".row:last").css({margin:"0"})}else $(this).calcSubWidth(),

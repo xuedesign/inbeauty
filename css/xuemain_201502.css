@@ -13,7 +13,6 @@
 		  2.4 版權列
 		  2.5 頁面中間區塊
 		  2.6 側邊產品選單
-		  2.7 返回頂端紐
 		3.頁面結構
 		  3.1 首頁
 		  3.2 關於采葳
@@ -247,62 +246,66 @@ footer p, footer li{
 	display:block;
 	position:relative;
 	width:100%;
-	min-width:1240px;
-	margin:30px auto 0 auto}
+	min-width:1240px}
+#page_main{ 
+    display:block; 
+	width:1240px; 
+	background:url(../images/bg_container.png) repeat-y;
+	margin:0 auto;
+	padding-top:30px;
+	min-height:1500px}
+#box_left{
+	display:block;
+	float:left;
+	width:295px;
+	padding-right:20px}
+#box_left h3{
+	display:block;
+	width:295px;
+	height:42px;
+	text-indent:-9999px;
+	background: url(../images/bg_ptitle.png) no-repeat}
+#box_left .ptitle-01{ background-position: 0 0}
+#box_left .ptitle-02{ background-position: 0 -42px}
+#box_left .ptitle-03{ background-position: 0 -84px}
+#box_left .ptitle-04{ background-position: 0 -126px}
+#box_left .ptitle-05{ background-position: 0 -168px}
+#box_left .ptitle-06{ background-position: 0 -210px}
+#mian_content{
+	display:block;
+	float:right;
+	width:895px;
+	padding:0 20px}
 
-/* 2.6 側邊產品選單 */
-#btn_quicklink{
+/* 2.6 側邊選單 */
+#btn_quicklink, #btn_quicklink-02{
 	display:block;
 	position:absolute;
-	top:0;
 	right:0;
 	z-index:99;
 	width:78px}
-#btn_quicklink .btn_link-01 a, 
-#btn_quicklink .btn_link-02 a, 
-#btn_quicklink .btn_link-03 a, 
-#btn_quicklink .btn_link-04 a, 
-#btn_quicklink .btn_link-05 a, 
-#btn_quicklink .btn_link-06 a,
-#btn_quicklink .btn_link-07 a{
+#btn_quicklink{ top:0}
+#btn_quicklink-02{ top:30px}		
+.btn_link-01 a, 
+.btn_link-02 a, 
+.btn_link-03 a, 
+.btn_link-04 a, 
+.btn_link-05 a, 
+.btn_link-06 a,
+.btn_link-07 a{
 	display:block;
 	width:78px;
 	height:84px;
 	background:url(../images/btn_quicklink.png) no-repeat;
 	text-indent:-9999px}
-#btn_quicklink .btn_link-01 a{ background-position:0 0}
-#btn_quicklink .btn_link-02 a{ background-position:0 -84px} 
-#btn_quicklink .btn_link-03 a{ background-position:0 -168px}
-#btn_quicklink .btn_link-04 a{ background-position:0 -252px}
-#btn_quicklink .btn_link-05 a{ background-position:0 -336px}
-#btn_quicklink .btn_link-06 a{ background-position:0 -420px}
-#btn_quicklink .btn_link-07 a{ background-position:0 -504px}		
-
-/* 2.7 返回頂端紐 */
-#toTop{
-	display:none;
-	text-decoration:none;
-	position:fixed;
-	bottom:10px;
-	right:10px;
-	overflow:hidden;
-	width:51px;
-	height:51px;
-	border:none;
-	text-indent:-999px;
-	background:url(../images/ui.totop.png) no-repeat left top}
-#toTopHover{
-	background:url(../images/ui.totop.png) no-repeat left -51px;
-	width:51px;
-	height:51px;
-	display:block;
-	overflow:hidden;
-	float:left;
-	opacity: 0;
-	-moz-opacity: 0;
-	filter:alpha(opacity=0)}
-#toTop:active, #toTop:focus { outline:none}
-		  		
+.btn_link-01 a{ background-position:0 0}
+.btn_link-02 a{ background-position:0 -84px} 
+.btn_link-03 a{ background-position:0 -168px}
+.btn_link-04 a{ background-position:0 -252px}
+.btn_link-05 a{ background-position:0 -336px}
+.btn_link-06 a{ background-position:0 -420px}
+.btn_link-07 a{ background-position:0 -504px}
+#clinic_info{ display:block; margin-top:10px}				  		
 	
 /* 3.頁面結構
 ===============================================================================================*/
@@ -398,7 +401,7 @@ footer p, footer li{
 	display:block;
 	width:1240px;
 	margin:0 auto}
-#hot_service{ height:42px; margin-bottom:45px}
+#hot_service{ height:42px; margin:30px auto 45px auto}
 #hot_service h3{
 	display:block;
 	float:left;
@@ -453,10 +456,15 @@ footer p, footer li{
 	background:url(../images/title_index.png) no-repeat;
 	text-indent:-9999px}
 .info_imedia{ margin:20px 0 0 19px}
-#box_media p{ font-size:1.063em; line-height:30px; color:#83725a; margin:5px 0 0 19px}
-#box_media .micon-01, #box_media .micon-02{	background: url(../images/icon_link.png) no-repeat; padding-left:38px}
-#box_media .micon-01{ background-position: 0 -120px}
-#box_media .micon-02{ background-position: 0 -150px}	
+#box_media p, #clinic_info p{ line-height:30px; color:#83725a}
+#box_media p{ font-size:1.063em; margin:5px 0 0 19px}
+#clinic_info p{ font-size:1em; margin:5px 0 0 0}
+#box_media .micon-01, 
+#box_media .micon-02, 
+#clinic_info .micon-01, 
+#clinic_info .micon-02{	background: url(../images/icon_link.png) no-repeat; padding-left:38px}
+#box_media .micon-01, #clinic_info .micon-01{ background-position: 0 -120px}
+#box_media .micon-02, #clinic_info .micon-02{ background-position: 0 -150px}	
 #box_lastnews{ width:290px}
 #box_lastnews h3{
 	display:block;

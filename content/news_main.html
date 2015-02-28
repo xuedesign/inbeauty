@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="../css/listmenu_o.css">
 <link rel="stylesheet" href="../css/jquery.fancybox.css"/>
 <link rel="stylesheet" href="../css/fancybox-thumbs.css">
-
+<script src="http://code.jquery.com/jquery.min.js"></script>
 <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -138,7 +138,7 @@
                  <!-- 側邊選單 -->
                  <nav>
                     <ul id="listMenuRoot" class="menulist"><!-- 若在該單元時，側邊選單的連結請幫我加上 "class="navin" -->
-                       <li><a href="news_list.html">活動消息</a></li>
+                       <li><a href="news_list.html" class="navin">活動消息</a></li>
                        <li><a href="#">媒體報導</a></li>
                     </ul>
                  </nav>
@@ -148,32 +148,94 @@
                     <p class="micon-01">諮詢熱線：02-2331-0929</p>
                     <p class="micon-02">營業時間：週一～週五10:00~20:00</p> 
                  </div>
+                 
+                 <!-- 廣告AD -->
+                 <div id="box_adsub">
+                    <ul><!--固定4則，欄位旁請加說明；圖片建議尺寸243*163px -->
+                      <li><a href="../news_main.html"><img src="../images/pic_ad-01.jpg" alt="*"></a></li>
+                      <li><a href="#"><img src="../images/pic_ad-02.jpg" alt="*"></a></li>
+                      <li><a href="#"><img src="../images/pic_ad-03.jpg" alt="*"></a></li>
+                      <li><a href="#"><img src="../images/pic_ad-04.jpg" alt="*"></a></li>
+                   </ul>
+                 </div>
                </div>
-               
-               
-               
-               <!-- 廣告AD -->
-               
-               
             </aside>
             
             <div id="mian_content">
-            
+               <!-- 頁面標題區 -->
+               <div class="bar_cookie">
+                  <a href="../index.html" title="返回首頁">首頁</a>&gt;活動訊息
+               </div>
+               <div class="bar_title">
+                  <h4>小優 X 打造可愛蘋果臉龐</h4>
+                  <div class="bar_socail">
+                        <div class="fb-like" data-href="http://www.inbeauty.com.tw/" data-width="150px" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+                    </div>
+                    <br class="clean">
+               </div>
+               
+               <!--頁面內容區-->
+               <article id="main_conbox">
+                  <img src="../images/pic_sample-01.jpg" alt="*"><!-- 圖片上傳最大寬度建議不得超過850px，請幫我註解在編輯器周邊 -->
+                  <p>最近新出了一個名詞，「老顏美女」，是專為ChoColat成員《Tia》而取!《Tia》這位美女，而且在她出道當天，就因為超亮眼的外貌被不少女性們羨慕呢！可是這麼漂亮的《Tia》～最近竟然有了個很妙的稱號...那就是《老顏美女》。大家也許會好奇《Tia》看起來很年輕，怎麼會有老顏美女的稱號吧？！因為《Tia》現在年齡才15歲，就有著成熟的長像～所以韓國網友就幫她取了這個綽號～但不管怎樣，漂亮還是漂亮啊！</p>
+                  <p>《Tia》雖然年紀尚小但是散發出來的美女風範還是萬夫莫敵阿!!《Tia》的臉龐有可愛的蘋果肌，不知道大家注意到了嗎?蘋果肌可是可以讓人變年輕的微整祕招!! 沒有蘋果肌的女孩也別垂心肝，現在想要蘋果肌可以選擇用玻尿酸/水微晶注射打造出和《Tia》一樣可愛的蓬蓬臉龐喔!</p>
+                  <p>玻尿酸/水微晶注射蘋果肌很快速，而且效果立顯。一般玻尿酸/水微晶打造蘋果肌大約需要2~ 3cc玻尿酸/水微晶，如果想要更飽滿的蘋果肌可以在追加玻尿酸/水微晶的劑量，通常注射玻尿酸/水微晶後可以感覺到臉龐蘋果肌的飽滿度立刻增加，淨美也貼心提醒您注射完玻尿酸/水微晶不要去揉她，也要避免做激烈運動和泡溫泉喔，若有問題可以立刻和醫生溝通喔!!</p>
+               </article>
+               
+               <span class="btn_back"><a href="news_list.html" title="返回列表">返回列表</a></span>
+               <br class="clean">
+               
+               <!-- 表單區 -->
+               <section id="down_message">
+                   <h3>線上留言或預約</h3>
+                   <form action="">
+                     <table width="100%" class="box_message">
+                           <tr>
+                             <td class="ttd"><span class="pot_star">*</span>姓名：</td>
+                             <td><input name="name" type="text" class="text_area w350"></td>
+                           </tr>
+                           <tr>
+                             <td class="ttd"><span class="pot_star">*</span>性別：</td>
+                             <td>
+                                 <input name="sex" type="radio" value="female">女性
+                                 <input name="sex" type="radio" value="male">男性
+                             </td>
+                           </tr>
+                           <tr>
+                             <td class="ttd"><span class="pot_star">*</span>生日：</td>
+                             <td>西元 <input name="year" type="text" class="text_area w78"> 年 
+                                     <input name="month" type="text" class="text_area w78"> 月 
+                                     <input name="date" type="text" class="text_area w78"> 日
+                             </td>
+                           </tr>
+                           <tr>
+                             <td class="ttd"><span class="pot_star">*</span>連絡電話：</td>
+                             <td><input name="phone" type="text" class="text_area w350"></td>
+                           </tr>
+                           <tr>
+                             <td class="ttd"><span class="pot_star">*</span>Email：</td>
+                             <td><input name="email" type="text" class="text_area w350"></td>
+                           </tr>
+                           <tr>
+                             <td class="ttd"><span class="pot_star">*</span>意見留言：<br></td>
+                             <td><textarea name="message" cols="47" rows="4"  class="text_area">&nbsp;</textarea></td>
+                           </tr>
+                           <tr>
+                             <td class="ttd"><span class="pot_star">*</span>驗證碼：</td>
+                             <td><img src="../images/captcha_image.jpg" alt="*"><input name="code" type="text" class="text_area w100"></td>
+                           </tr>
+                     </table>
+                     <div class="box_buttom">
+                        <input name="btn_send" type="submit" class="btn_empty" value="確認送出">
+                        <input name="btn_send" type="reset" class="btn_empty" value="取消重填">
+                     </div>
+                   </form>
+               </section>
             </div>
             <br class="clean">
           </div>  
            
-           
-           
-           
-           
-          
-           
-           
-          
-          
-          
-          <!-- 側邊快速選單-->
+         <!-- 側邊快速選單-->
           <div id="btn_quicklink-02" class="stickybox">
              <ul>
                 <li class="btn_link-01"><a href="#box_message" class="fancybox" >線上諮詢</a></li>
@@ -259,14 +321,14 @@
      </div>
   </footer>
 
-<script src="http://code.jquery.com/jquery.min.js"></script>
+
+<script src="../script/jquery.flexslider.js"></script>
+<script> $(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}); </script>   
 <script src="../script/jquery.hoverIntent.minified.js"></script>
 <script>
 $(document).ready(function(){$("ul#topnav li .sub").css({opacity:"0"});$("ul#topnav li").hoverIntent({sensitivity:2,interval:100,over:function(){$(this).find(".sub").stop().fadeTo("fast",1).show();(function(a){jQuery.fn.calcSubWidth=function(){rowWidth=0;a(this).find("ul").each(function(){rowWidth+=a(this).width()})}})(jQuery);if(0<$(this).find(".row").length){var a=0;$(this).find(".row").each(function(){$(this).calcSubWidth();rowWidth>a&&(a=rowWidth)});$(this).find(".sub").css({width:a});$(this).find(".row:last").css({margin:"0"})}else $(this).calcSubWidth(),
 $(this).find(".sub").css({width:rowWidth})},timeout:500,out:function(){$(this).find(".sub").stop().fadeTo("fast",0,function(){$(this).hide()})}})});
 </script>
-<script src="../script/jquery.flexslider.js"></script>
-<script> $(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}); </script>      
 <script src="../script/jquery.fancybox.pack.js"></script>
 <script>
 $(document).ready(function(){$(".fancybox").fancybox();$(".fancybox-effects-a").fancybox({helpers:{title:{type:"outside"},overlay:{speedOut:0}}});$(".fancybox-effects-b").fancybox({openEffect:"none",closeEffect:"none",helpers:{title:{type:"over"}}});$(".fancybox-effects-c").fancybox({wrapCSS:"fancybox-custom",closeClick:!0,openEffect:"none",helpers:{title:{type:"inside"},overlay:{css:{background:"rgba(238,238,238,0.85)"}}}});$(".fancybox-effects-d").fancybox({padding:0,openEffect:"elastic",openSpeed:150,
@@ -276,7 +338,7 @@ closeEffect:"elastic",closeSpeed:150,closeClick:!0,helpers:{overlay:null}});$(".
 <script src="../script/jquery.lazyload.js"></script>
 <script src="../script/stickysidebar.jquery.js"></script>
 <script src="../script/easing.js"></script>
-<script>$(function(){$(".stickybox").stickySidebar({speed:400,easing:"easeInOutQuad",constrain:!0})});</script>
+<script>$(function(){$(".stickybox").stickySidebar({speed:400,easing:"easeInOutQuad",constrain:true})});</script>
 <script src="../script/scrollTo.js"></script>
 <script>$(function(){$(".btn_link-07").scrollTo(700)});</script>
 <script src="../script/fsmenu.js"></script>

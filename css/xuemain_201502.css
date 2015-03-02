@@ -15,12 +15,11 @@
 		  2.6 側邊產品選單
 		3.頁面結構
 		  3.1 首頁
-		  3.2 關於采葳
-		  3.3 最新消息+媒體名人
+		  3.2 關於美醫
+		  3.3 最新消息+媒體專區
 		  3.4 服務項目
 		  3.5 醫師團隊
 		  3.6 門診資訊
-		  3.7 彈跳視窗
 ***********************************************************************************************/
 
 /* 1. 通用 
@@ -246,7 +245,8 @@ footer p, footer li{
 	display:block;
 	position:relative;
 	width:100%;
-	min-width:1240px}
+	min-width:1240px;
+	background:#FFF}
 #page_main{ 
     display:block; 
 	width:1240px; 
@@ -309,17 +309,20 @@ footer p, footer li{
 	display:block;
 	float:right;
 	width:150px;
-	text-align:right}	
+	text-align:right}
+#main_conbox{
+	display:block;
+	width:800px;
+	margin:20px auto}		
 	
 /* 2.6 側邊選單 */
-#btn_quicklink, #btn_quicklink-02{
+#btn_quicklink{
 	display:block;
 	position:absolute;
+	top:30px;
 	right:0;
 	z-index:99;
-	width:78px}
-#btn_quicklink{ top:0}
-#btn_quicklink-02{ top:30px}		
+	width:78px}	
 .btn_link-01 a, 
 .btn_link-02 a, 
 .btn_link-03 a, 
@@ -388,6 +391,12 @@ footer p, footer li{
 .box_message{
 	width:750px;
 	margin:15px auto 0 auto}
+.box_message input:focus, .box_message textarea:focus{
+	-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+	-webkit-box-shadow:0 0 10px #CFB397;
+	-moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+	-moz-box-shadow:0 0 10px #CFB397;
+    border-color:#CFB397}	
 .box_message tr{ border-bottom:1px dashed #D7D7D7}	
 .box_message td{
 	padding:10px;
@@ -442,7 +451,7 @@ footer p, footer li{
 	display:block;
 	width:1240px;
 	margin:0 auto}
-#hot_service{ height:42px; margin:30px auto 45px auto}
+#hot_service{ height:42px; margin:0 auto 45px auto; padding-top:30px}
 #hot_service h3{
 	display:block;
 	float:left;
@@ -628,8 +637,60 @@ footer p, footer li{
 	text-decoration:none}
 #list_service .list_main li li a:link {text-decoration:none; color:#545147}
 #list_service .list_main li li a:visited {text-decoration:none; color:#8c8c8c}
-#list_service .list_main li li a:hover {text-decoration:none; color:#987067}
-		
-@media screen and (max-width: 1024px) {
-	#btn_quicklink, #btn_quicklink-02{ display:none}
-	}						
+#list_service .list_main li li a:hover {text-decoration:none; color:#987067}	
+@media screen and (max-width: 1024px){ #btn_quicklink, #btn_quicklink-02{ display:none}}
+
+/* 3.2 關於美醫 */
+
+/* 3.3 最新消息+媒體專區 */
+.con_article p{
+	font-size:0.938em;
+	line-height:25px;
+	padding-bottom:10px}
+.con_article img{
+	display:block;
+	max-width:800px;
+	margin-bottom:10px}
+.con_article ul, .con_article ol{
+	display:block;
+	margin:15px 40px 20px}
+.con_article ul li, .con_article ol li{
+	font-size:1em;
+	line-height:25px;
+	padding:5px 0;
+	border-bottom:1px dashed #E3DBD4}
+.con_article ul li{ list-style: disc}	
+.con_article ol li{ list-style:decimal}
+.btn_back a{
+	display:block;
+	float:right;
+	padding:8px 20px;
+	font-size:.938em;
+	color:#FFF;
+	background:#CFB397;
+	text-decoration:none;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;}
+.btn_back a:hover{
+	background:#987067;
+	text-decoration:none;
+	color:#FFF}
+#down_message{
+	display:block;
+	width:100%;
+	margin:30px auto 100px auto}
+#down_message h4{
+	display:block;
+	background:url(../images/bg_bar-title.png) no-repeat;
+	height:42px; 
+    padding-left:50px; 
+	font-size:1.25em; 
+	line-height:28px}		 
+
+
+/* 3.4 服務項目 */
+
+/* 3.5 醫師團隊 */
+
+/* 3.6 門診資訊 */					

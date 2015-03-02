@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-tw"><!-- InstanceBegin template="/Templates/inbeauty_temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="zh-tw">
 <head>
 <meta charset="utf-8" lang="zh-tw">
 <meta name="description" content="100%醫美專科團隊，完美結合醫學與美容，提供最安全有效的治療，尊榮貼心的服務，讓您放心將自己交給美醫時尚醫美。"/>
@@ -7,9 +7,9 @@
 <meta name="Author" content="xuedesign studio" />
 <link rel="shortcut icon"  href="../images/favicon.ico"/>
 <link rel="icon" href="../images/favicon.ico"/>
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>最新消息│美醫時尚醫美診所，口內取脂,冷凍融脂,音波拉皮</title>
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
 <link rel="stylesheet" href="../css/reset.css" />
 <link rel="stylesheet" href="../css/xuemain_201502.css"/>
 <link rel="stylesheet" href="../css/flexslider.css"/>
@@ -23,8 +23,8 @@
 <!--[if IE 7]>
 	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
 <![endif]-->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 
 <body>
@@ -52,14 +52,14 @@
                        <a href="../index.html" class="nav_01">美醫首頁</a>
                     </li>
                     <li>
-                       <a href="about.html" class="nav_02">關於美醫</a>
+                       <a href="../content/about.html" class="nav_02">關於美醫</a>
                     </li>
                     <li>
                        <a href="#" class="nav_03">最新消息</a>
                        <div class="sub">
                            <ul class="short_item">
                                <li><h3>類別</h3></li>
-                               <li><a href="news_list.html">活動消息</a></li>
+                               <li><a href="../content/news_list.html">活動消息</a></li>
                                <li><a href="#">媒體報導</a></li>
                            </ul>
                        </div>
@@ -69,7 +69,7 @@
                        <div class="sub service">
                             <ul>
                                 <li><h3>整形手術</h3></li>
-                                <li><a href="service.html">胸部整形</a></li>
+                                <li><a href="../content/service.html">胸部整形</a></li>
                                 <li><a href="#">豐臀手術</a></li>
                                 <li><a href="#">體雕抽脂</a></li>
                                 <li><a href="#">自體脂肪</a></li>
@@ -101,21 +101,21 @@
                        </div>     
                     </li>
                     <li>
-                       <a href="doctor_list.html" class="nav_05">醫師團隊</a>
+                       <a href="../content/doctor_list.html" class="nav_05">醫師團隊</a>
                     </li>
                     <li>
                        <a href="#" class="nav_06">見證專區</a>
                        <div class="sub">
                            <ul class="short_item">
                                <li><h3>類別</h3></li>
-                               <li><a href="media_list.html">藝人模特兒</a></li>
+                               <li><a href="../content/media_list.html">藝人模特兒</a></li>
                                <li><a href="#">網路名人</a></li>
                                <li><a href="#">素人分享</a></li>
                            </ul>
                        </div>
                     </li>
                     <li>
-                       <a href="clinic.html" class="nav_07">門診資訊</a>
+                       <a href="../content/clinic.html" class="nav_07">門診資訊</a>
                     </li>
                     <li>
                        <a href="#box_message" class="nav_08 fancybox" >預約諮詢</a>
@@ -136,20 +136,21 @@
         <section id="container">
           <div id="page_main"> 
             <aside id="box_left">
-               <!-- InstanceBeginEditable name="aside-title" -->
+               <!-- TemplateBeginEditable name="aside-title" -->
                <h3 class="ptitle-02">最新消息</h3>
-               <!-- InstanceEndEditable -->
+               <!-- TemplateEndEditable -->
                <div class="stickybox">
                  
-                 <!-- InstanceBeginEditable name="aside-nav" -->
+                 <!-- TemplateBeginEditable name="aside-nav" -->
+                 <!-- 側邊選單 -->
                  <nav>
                    <ul id="listMenuRoot" class="menulist">
                      <!-- 若在該單元時，側邊選單的連結請幫我加上 "class="navin" -->
-                     <li><a href="news_list.html" class="navin">活動消息</a></li>
+                     <li><a href="../content/news_list.html" class="navin">活動消息</a></li>
                      <li><a href="#">媒體報導</a></li>
                    </ul>
                  </nav>
-                 <!-- InstanceEndEditable -->
+                 <!-- TemplateEndEditable -->
                  
                  <!-- 診所營業訊息 -->
                  <div id="clinic_info">
@@ -169,12 +170,12 @@
                </div>
             </aside>
             
-            <!-- InstanceBeginEditable name="main_contenter" -->
+            <!-- TemplateBeginEditable name="main_contenter" -->
             <div id="mian_content">
                
                <!-- 頁面標題區 -->
                <div class="bar_cookie">
-                  <a href="../index.html" title="返回首頁">首頁</a>&gt;最新消息&gt;活動消息
+                  <a href="../index.html" title="返回首頁">首頁</a>&gt;活動訊息
                </div>
                <div class="bar_title">
                   <h4>小優 X 打造可愛蘋果臉龐</h4>
@@ -201,7 +202,7 @@
                   </div>
                </article>
                
-               <span class="btn_back"><a href="news_list.html" title="返回列表">返回列表</a></span>
+               <span class="btn_back"><a href="../content/news_list.html" title="返回列表">返回列表</a></span>
                <br class="clean">
                
                <!-- 表單區 -->
@@ -251,7 +252,7 @@
                    </form>
                </section>
             </div>
-            <!-- InstanceEndEditable -->
+            <!-- TemplateEndEditable -->
             <br class="clean">
           </div>  
          
@@ -365,4 +366,4 @@ closeEffect:"elastic",closeSpeed:150,closeClick:!0,helpers:{overlay:null}});$(".
 <script src="../script/web_set.js"></script>
 <script src="../script/google-analytics.js"></script>  
 </body>
-<!-- InstanceEnd --></html>
+</html>

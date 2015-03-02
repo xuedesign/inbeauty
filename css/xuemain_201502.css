@@ -252,8 +252,7 @@ footer p, footer li{
 	width:1240px; 
 	background:url(../images/bg_container.png) repeat-y;
 	margin:0 auto;
-	padding-top:30px;
-	min-height:1500px}
+	padding-top:30px}
 #box_left{
 	display:block;
 	float:left;
@@ -686,8 +685,112 @@ footer p, footer li{
 	height:42px; 
     padding-left:50px; 
 	font-size:1.25em; 
-	line-height:28px}		 
+	line-height:28px}
 
+/*頁碼*/
+#digg { padding: 3px; margin: 30px 15px 15px; text-align: center}
+#digg a { 
+    border: #D4A696 1px solid; 
+	padding:5px 10px; 
+	margin: 5px; 
+	color: #252136;
+	background:#FFF; 
+	text-decoration: none;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px}
+#digg a:hover { border: #D4A696 1px solid; color:#252136; background:#EFE0D2}
+#digg a:active { border: #D4A696 1px solid; color: #8c8c8c}
+#digg span.current {
+	border: #D4A696 1px solid; 
+	padding:5px 10px; 
+	font-weight: bold; 
+	margin: 5px; 
+	color: #fff; 
+	background-color: #D4A696;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px}
+#digg span.disabled {
+	border: #D4A696 1px solid; 
+	padding:5px 10px; 
+	margin: 2px; 
+	color: #999;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background:#fff}			 
+
+#list_news li{
+	display:block;
+	float:left;
+	width:400px;
+	margin-bottom:20px;
+	border-bottom:1px dashed #EFE0D2}
+#list_news li img{
+	display:block;
+	float:left;
+	width:180px;
+	height:105px}
+#list_news .news_brief{
+	display:block;
+	float:right;
+	width:180px;
+	padding:0 20px 30px 15px}
+#list_news h5{
+	display:block;
+	height:45px;
+	overflow:hidden;
+	font-size:1em;
+	line-height:25px;
+	color:#83725a;
+	padding-bottom:10px}
+#list_news h5:hover{color:#D4A696}
+#list_news p{
+	display:block;
+	height:45px;
+	overflow:hidden;
+	font-size:.813em;
+	line-height:22px;
+	color:#231815}
+
+#list_media{
+	display:block;
+	width:798px;
+	margin:0 auto}
+#list_media li a{
+	display:block;
+	float:left;
+	width:226px;
+	margin-bottom:20px;
+	padding:0 20px;
+	border-bottom:1px dashed #EFE0D2;
+	text-decoration:none}
+#list_media li img{
+	display:block;
+	width:226px;
+	height:131px}
+#list_media .news_brief{
+	display:block;
+	width:186px;
+	padding:0 20px 30px}
+#list_media h5{
+	display:block;
+	height:45px;
+	overflow:hidden;
+	font-size:1em;
+	line-height:25px;
+	color:#83725a;
+	padding:10px 0}
+#list_media h5:hover{color:#D4A696}
+#list_media p{
+	display:block;
+	height:45px;
+	overflow:hidden;
+	font-size:.813em;
+	line-height:22px;
+	color:#231815;
+	margin-bottom:10px}			
 
 /* 3.4 服務項目 */
 

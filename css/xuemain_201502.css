@@ -846,4 +846,94 @@ footer p, footer li{
 
 /* 3.5 醫師團隊 */
 
-/* 3.6 門診資訊 */					
+/* 3.6 門診資訊 */
+.info_photo{
+	display:block;
+	float:left;
+	width:350px;
+	height:275px;
+	padding:10px;
+	background:#FFF;
+	border:1px solid #CCC;
+	margin:15px 0 30px 0}
+.info_list{
+	display:block;
+	float:right;
+	width:398px;
+	padding:30px 0 10px 30px}
+.info_list li{
+	font-size:.938em;
+	line-height:25px;
+	background:url(../images/pot_brown.png) 10px 10px no-repeat;
+	margin-bottom:10px;
+	padding:0 0 10px 30px;
+	border-bottom:1px dashed #EFE0D2}
+.info_list li span{
+	font-weight:bold;
+	font-size:1.063em;
+	padding-bottom:8px;
+	color:#BB9283}	
+#clinic_map, #clinic_calendar{ display:block; padding-bottom:20px}	
+.my_map{
+	display:block;
+	width:800px;
+	height:266px;
+	margin:15px auto 30px auto;
+	border:1px solid #999}
+.my_calendar{
+	width:800px;
+	margin:15px auto 30px auto;
+	border-collapse: collapse; 
+	border-spacing: 1px;
+	border:1px solid #dad2cd}
+.my_calendar th{
+	border-spacing: 1px;
+	border:1px solid #dad2cd;
+	padding:8px;
+	background: #F9F0E8;
+	font-weight:bold;
+	letter-spacing:1px}
+.my_calendar td{
+	font-size:0.938em;
+	padding:10px;
+	text-align:center;
+	vertical-align:middle;
+	border-spacing: 1px;
+	border:1px solid #dad2cd}
+.my_calendar .w100{ font-weight:bold}
+#clinic_map h4, #clinic_calendar h4{
+	font-size:1.25em;
+	line-height:25px;
+	padding-bottom:0px;
+	color:#BB9283}
+.my_map-draw{
+	display:block;
+	float:left;
+	width:595px}
+.traffic_info{
+	display:block;
+	float:right;
+	width:185px;
+	padding-left:20px}
+.traffic_info h5, .traffic_info2 h5{
+	display:block;
+	width:100%;
+	font-size:.938em;
+	line-height:20px;
+	color:#FFF;
+	text-indent:10px;
+	margin-bottom:8px;
+	background:#BB9283}
+.traffic_info ul{ margin:0; padding:0}		
+.traffic_info p, .traffic_info li, .traffic_info2 p, .traffic_info2 li{
+	font-size:.813em;
+	line-height:22px;
+	margin-left:15px;
+	padding-bottom:10px}
+.traffic_info2 ul{ margin:0 10px 0 20px; padding:0}	
+.traffic_info2 li{
+	list-style:circle;
+	padding:10px 0;
+	border-bottom:1px dashed #EFE0D2}	
+
+.traffic_info .t-strong{ font-size:1em; color:#BB9283; font-weight:bold}									

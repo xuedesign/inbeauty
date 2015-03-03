@@ -793,6 +793,56 @@ footer p, footer li{
 	margin-bottom:10px}			
 
 /* 3.4 服務項目 */
+#box_compare{
+	display:block;
+	width:800px;
+	margin:0 auto}
+#box_compare h4{ display:none}
+#box_compare ul{
+	display:block}
+#box_compare li{
+	display:block;
+	position:relative;
+	float:left;
+	width:400px;
+	height:340px;
+	overflow:hidden;
+	background:url(../images/bg_compare.png) no-repeat;
+	border-bottom:1px dashed #CCC;
+	margin-bottom:20px}
+#box_compare h5, #box_compare p, #box_compare .photo_before, #box_compare .photo_after{
+	display:block;
+	position:absolute;}	
+#box_compare h5{
+	top:240px;
+	left:15px;
+	width:390px;
+	font-size:1em;
+	line-height:30px;
+	color:#D4A696;
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap}
+#box_compare p{
+	top:285px;
+	left:15px;
+	width:370px;
+	height:48px;
+	overflow:hidden;
+	font-size:0.813em;
+	line-height:22px}
+.photo_before, .photo_after{
+	width:139px;
+	height:139px;
+	overflow:hidden;
+	border:1px solid #CCC}
+.photo_before{
+	top:21px;
+	left:14px}
+.photo_after{
+	top:21px;
+	left:212px}		
+.photo_before img, .photo_after img{ width:139px}
 
 /* 3.5 醫師團隊 */
 

@@ -13,11 +13,12 @@
  
 .menulist li ul{
   top:0; 
-  left:210px;
+  left:299px;
+  width:180px;
   background:#FFF;
   padding:5px 10px 10px;
   border:1px solid #CCC;
-  padding-right:35px}
+  /*padding-right:35px*/}
 
 .menulist li {position: relative}
 

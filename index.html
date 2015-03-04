@@ -371,7 +371,7 @@
   </footer>
 
 <script src="script/jquery.flexslider.js"></script>
-<script> $(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}); </script>  
+<script> $(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}); </script>
 <script src="script/jquery.hoverIntent.minified.js"></script>
 <script>
 $(document).ready(function(){$("ul#topnav li .sub").css({opacity:"0"});$("ul#topnav li").hoverIntent({sensitivity:2,interval:100,over:function(){$(this).find(".sub").stop().fadeTo("fast",1).show();(function(a){jQuery.fn.calcSubWidth=function(){rowWidth=0;a(this).find("ul").each(function(){rowWidth+=a(this).width()})}})(jQuery);if(0<$(this).find(".row").length){var a=0;$(this).find(".row").each(function(){$(this).calcSubWidth();rowWidth>a&&(a=rowWidth)});$(this).find(".sub").css({width:a});$(this).find(".row:last").css({margin:"0"})}else $(this).calcSubWidth(),

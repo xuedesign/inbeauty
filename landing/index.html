@@ -16,17 +16,29 @@ body{ margin:0;
 	height:453px;
 	min-width:1280px;
 	background: url(images/banner.jpg) 50% 0 no-repeat}
-#header{ background:url(images/top.png); height:112px}
+#header{ position:relative; background:url(images/top.png); height:112px}
 #con-01{ background:url(images/con-01.png); height:399px}	
 #con-02{ background:url(images/con-02.png); height:283px}
-#con-03{ background: url(images/con-03.png); height:424px}
-#footer{ background:url(images/footer.png); height:189px}				
+#con-03{ background: url(images/con-03.png); height:615px}
+#footer{ background:url(images/footer.png); height:189px}
+.btn_fb, .btn_mail{
+	display:block;
+	position:absolute;
+	top:33px;
+	z-index:99;
+	width:30px;
+	height:30px}
+.btn_fb{ right:82px}
+.btn_mail{right:41px}				
 </style>
 </head>
 
 <body>
    <div id="wrap">
-      <div id="header"></div>
+      <div id="header">
+         <a href="https://www.facebook.com/inbeautytw" title="美醫的FB粉絲專頁" class="btn_fb" target="_blank"></a>
+         <a href="mailto:inbeautytw@gmail.com" title="聯絡我們" class="btn_mail"></a>
+      </div>
       <div id="banner"></div>
       <div id="con-01"></div>
       <div id="con-02"></div>

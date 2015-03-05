@@ -391,10 +391,12 @@ footer p, footer li{
 	width:750px;
 	margin:15px auto 0 auto}
 .box_message input:focus, .box_message textarea:focus{
-	-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
-	-webkit-box-shadow:0 0 10px #CFB397;
 	transition:border linear .2s,-moz-box-shadow linear .5s;
 	box-shadow:0 0 10px #CFB397;
+	-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+	-webkit-box-shadow:0 0 10px #CFB397;
+	-moz-transition:border linear .2s,-webkit-box-shadow linear .5s;
+	-moz-box-shadow:0 0 10px #CFB397;
 	border-color:#CFB397}	
 .box_message tr{ border-bottom:1px dashed #D7D7D7}	
 .box_message td{

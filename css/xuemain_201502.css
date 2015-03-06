@@ -239,6 +239,7 @@ footer p, footer li{
 #foot-main a, #foot-main a:hover, #foot-main a:visited{ color:#a9a28d; text-decoration:none}	
 .clinic_info{ margin-right:50px}
 .clinic_info span{ margin-right:20px}
+.clinic_info .clinic_time{ padding-left:65px; margin-right:0}
 
 /* 2.5 頁面中間區塊 */
 #container{
@@ -1010,7 +1011,7 @@ footer p, footer li{
 	vertical-align:middle;
 	border-spacing: 1px;
 	border:1px solid #dad2cd}
-.my_calendar .w100{ font-weight:bold}
+.my_calendar .w100{ font-weight:bold; width:60px}
 #clinic_map h4, #clinic_calendar h4{
 	font-size:1.25em;
 	line-height:25px;

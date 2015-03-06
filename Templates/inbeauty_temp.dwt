@@ -341,13 +341,13 @@
   </footer>
 
 
-<script src="../script/jquery.flexslider.js"></script>
-<script> $(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}); </script>   
 <script src="../script/jquery.hoverIntent.minified.js"></script>
 <script>
 $(document).ready(function(){$("ul#topnav li .sub").css({opacity:"0"});$("ul#topnav li").hoverIntent({sensitivity:2,interval:100,over:function(){$(this).find(".sub").stop().fadeTo("fast",1).show();(function(a){jQuery.fn.calcSubWidth=function(){rowWidth=0;a(this).find("ul").each(function(){rowWidth+=a(this).width()})}})(jQuery);if(0<$(this).find(".row").length){var a=0;$(this).find(".row").each(function(){$(this).calcSubWidth();rowWidth>a&&(a=rowWidth)});$(this).find(".sub").css({width:a});$(this).find(".row:last").css({margin:"0"})}else $(this).calcSubWidth(),
 $(this).find(".sub").css({width:rowWidth})},timeout:500,out:function(){$(this).find(".sub").stop().fadeTo("fast",0,function(){$(this).hide()})}})});
 </script>
+<script src="../script/jquery.flexslider.js"></script>
+<script> $(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}); </script>   
 <script src="../script/jquery.fancybox.pack.js"></script>
 <script>
 $(document).ready(function(){$(".fancybox").fancybox();$(".fancybox-effects-a").fancybox({helpers:{title:{type:"outside"},overlay:{speedOut:0}}});$(".fancybox-effects-b").fancybox({openEffect:"none",closeEffect:"none",helpers:{title:{type:"over"}}});$(".fancybox-effects-c").fancybox({wrapCSS:"fancybox-custom",closeClick:!0,openEffect:"none",helpers:{title:{type:"inside"},overlay:{css:{background:"rgba(238,238,238,0.85)"}}}});$(".fancybox-effects-d").fancybox({padding:0,openEffect:"elastic",openSpeed:150,
@@ -361,7 +361,6 @@ closeEffect:"elastic",closeSpeed:150,closeClick:!0,helpers:{overlay:null}});$(".
 <script src="../script/scrollTo.js"></script>
 <script>$(function(){$(".btn_link-07").scrollTo(700)});</script>
 <script src="../script/fsmenu.js"></script>
-<script src="../script/web_set.js"></script>
-<script src="../script/google-analytics.js"></script>  
+<script src="../script/web_set.js"></script> 
 </body>
 </html>

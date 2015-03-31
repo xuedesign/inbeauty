@@ -959,7 +959,10 @@ footer p, footer li{
 .info_right li{
 	font-size:.938em;
 	line-height:25px;
-	list-style:disc outside}	
+	list-style:disc outside}
+.info_right img{
+	display:block;
+	max-width:480px}		
 
 /* 3.6 門診資訊 */
 .info_photo{

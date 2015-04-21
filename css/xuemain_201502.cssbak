@@ -847,9 +847,9 @@ footer p, footer li{
 #box_compare li{
 	display:block;
 	position:relative;
-	/*float:left;*/
-	width:800px;
-	height:400px;
+	float:left;
+	width:400px;
+	height:340px;
 	overflow:hidden;
 	background:url(../images/bg_compare.png) no-repeat;
 	border-bottom:1px dashed #CCC;
@@ -858,9 +858,9 @@ footer p, footer li{
 	display:block;
 	position:absolute;}	
 #box_compare h5{
-	top:340px;
-	left:38px;
-	width:800px;
+	top:240px;
+	left:15px;
+	width:390px;
 	font-size:1em;
 	line-height:30px;
 	color:#D4A696;
@@ -868,25 +868,25 @@ footer p, footer li{
     text-overflow:ellipsis;
     white-space: nowrap}
 #box_compare p{
-	top:370px;
-	left:38px;
+	top:285px;
+	left:15px;
 	width:370px;
 	height:48px;
 	overflow:hidden;
 	font-size:0.813em;
 	line-height:22px}
 .photo_before, .photo_after{
-	width:315px;
-	height:260px;
+	width:139px;
+	height:139px;
 	overflow:hidden;
 	border:1px solid #CCC}
 .photo_before{
-	top:24px;
-	left:35px}
+	top:21px;
+	left:14px}
 .photo_after{
-	top:24px;
-	left:450px}		
-.photo_before img, .photo_after img{ width:315px}
+	top:21px;
+	left:212px}		
+.photo_before img, .photo_after img{ width:139px}
 
 /* 3.5 醫師團隊 */
 #list_doctor li{

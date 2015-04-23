@@ -561,10 +561,10 @@ footer p, footer li{
 	display:block;
 	float:left;
 	width:550px;
-	height:152px;
+	/*height:152px;*/
 	margin:0 58px 40px 0}
 .case_img{ display:block; float:left; position:relative; width:258px}	
-.case_img img{ width:258px; height:150px}
+.case_img img{ width:258px; height:258px}
 .case_img span{ 
     display:block;
 	position:absolute;
@@ -597,7 +597,7 @@ footer p, footer li{
 .case_text p{
 	display:block;
 	width:262px;
-	height:45px;
+	height:80px;
 	padding:10px 15px;
 	font-size:0.875em;
 	line-height:25px;
@@ -775,7 +775,8 @@ footer p, footer li{
 	display:block;
 	float:left;
 	width:180px;
-	height:105px}
+	height:180px;
+	margin-bottom:15px}
 #list_news .news_brief{
 	display:block;
 	float:right;
@@ -792,7 +793,7 @@ footer p, footer li{
 #list_news h5:hover{color:#D4A696}
 #list_news p{
 	display:block;
-	height:45px;
+	height:112px;
 	overflow:hidden;
 	font-size:.813em;
 	line-height:22px;
@@ -813,7 +814,7 @@ footer p, footer li{
 #list_media li img{
 	display:block;
 	width:226px;
-	height:131px}
+	height:226px}
 #list_media .news_brief{
 	display:block;
 	width:186px;

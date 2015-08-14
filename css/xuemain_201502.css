@@ -345,6 +345,7 @@ footer p, footer li{
 .btn_link-06 a{ background-position:0 -420px}
 .btn_link-07 a{ background-position:0 -504px}
 #clinic_info{ display:block; margin-top:10px}
+#clinic_info p span{ margin-top:-3px; letter-spacing:-1px}
 
 #box_adsub{ display:block; width:245px; margin:20px auto 0 auto}
 #box_adsub li{
@@ -519,10 +520,13 @@ footer p, footer li{
 #clinic_info p{ font-size:1em; margin:5px 0 0 0}
 #box_media .micon-01, 
 #box_media .micon-02, 
+#box_media .micon-03,
 #clinic_info .micon-01, 
-#clinic_info .micon-02{	background: url(../images/icon_link.png) no-repeat; padding-left:38px}
+#clinic_info .micon-02,
+#clinic_info .micon-03{	background: url(../images/icon_link.png) no-repeat; padding-left:38px}
 #box_media .micon-01, #clinic_info .micon-01{ background-position: 0 -120px}
-#box_media .micon-02, #clinic_info .micon-02{ background-position: 0 -150px}	
+#box_media .micon-02, #clinic_info .micon-02{ background-position: 0 -150px}
+#box_media .micon-03, #clinic_info .micon-03{ background-position: 0 -180px}	
 #box_lastnews{ width:290px}
 #box_lastnews h3{
 	display:block;
@@ -1056,4 +1060,36 @@ footer p, footer li{
 	list-style:circle;
 	padding:10px 0;
 	border-bottom:1px dashed #EFE0D2}	
-.traffic_info .t-strong{ font-size:1em; color:#BB9283; font-weight:bold}									
+.traffic_info .t-strong{ font-size:1em; color:#BB9283; font-weight:bold}
+.pic_build{ display:block; float:right; margin:0 0 0 20px}
+
+/*表單發送 #20150814新增*/	
+#box_mailsend{
+	display:block;
+	position:relative;
+	width:764px;
+	margin:110px auto;
+	border:2px solid #8a7862}
+#box_mailsend .gif_send{
+	display:block;
+	position:absolute;
+	top:-50px;
+	left:-30px;
+	width:150px;
+	height:150px}	
+#box_mailsend h5{
+	display:block;
+	background: url(../images/bg_sendtitle.png) no-repeat;
+	width:764px;
+	height:67px;
+	text-indent:-9999px}
+#box_mailsend .send_note{
+	display:block;
+	padding:30px 150px 30px 150px}	
+#box_mailsend p{
+	font-size:1em;
+	line-height:25px;
+	padding-bottom:15px;
+	letter-spacing:1px}
+#box_mailsend a{ text-decoration:none}
+#box_mailsend a:hover{ text-decoration: underline}								

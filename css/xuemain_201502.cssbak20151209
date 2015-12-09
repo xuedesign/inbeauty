@@ -77,7 +77,7 @@ h1 a{
 	float:right;
 	font-size:0.938em;
 	line-height:28px}
-.iconlink-01 a, .iconlink-02 a, .iconlink-03 a, .iconlink-04 a, .iconlink-05 a{
+.iconlink-01 a, .iconlink-02 a, .iconlink-03 a, .iconlink-04 a{
 	display:block;
 	float:left;
 	width:30px;
@@ -95,8 +95,6 @@ h1 a{
 .iconlink-03 a:hover{ background:url(../images/icon_link.png) -30px -60px no-repeat}
 .iconlink-04 a{ background:url(../images/icon_link.png) 0 -90px no-repeat}	
 .iconlink-04 a:hover{ background:url(../images/icon_link.png) -30px -90px no-repeat}
-.iconlink-05 a{ background:url(../images/icon_link.png) 0 -120px no-repeat}	
-.iconlink-05 a:hover{ background:url(../images/icon_link.png) -30px -120px no-repeat}
 .phone_number{
 	clear:both;
 	text-align:right;
@@ -332,8 +330,7 @@ footer p, footer li{
 .btn_link-04 a, 
 .btn_link-05 a, 
 .btn_link-06 a,
-.btn_link-07 a,
-.btn_link-08 a{
+.btn_link-07 a{
 	display:block;
 	width:78px;
 	height:84px;
@@ -347,7 +344,6 @@ footer p, footer li{
 .btn_link-05 a{ background-position:0 -336px}
 .btn_link-06 a{ background-position:0 -420px}
 .btn_link-07 a{ background-position:0 -504px}
-.btn_link-08 a{ background-position:0 -588px}
 #clinic_info{ display:block; margin-top:10px}
 #clinic_info p span{ margin-top:-3px; letter-spacing:-1px}
 
@@ -523,12 +519,14 @@ footer p, footer li{
 #box_media p{ font-size:1.063em; margin:5px 0 0 19px}
 #clinic_info p{ font-size:1em; margin:5px 0 0 0}
 #box_media .micon-01, 
-#box_media .micon-02,
+#box_media .micon-02, 
+#box_media .micon-03,
 #clinic_info .micon-01, 
-#clinic_info .micon-02{	background: url(../images/icon_link.png) no-repeat; padding-left:38px}
-#box_media .micon-01, #clinic_info .micon-01{ background-position: 0 -150px}
-#box_media .micon-02, #clinic_info .micon-02{ background-position: 0 -210px}
-#box_media .micon-03, #clinic_info .micon-03{ background: url(../images/icon_map.png) no-repeat; padding-left:38px}	
+#clinic_info .micon-02,
+#clinic_info .micon-03{	background: url(../images/icon_link.png) no-repeat; padding-left:38px}
+#box_media .micon-01, #clinic_info .micon-01{ background-position: 0 -120px}
+#box_media .micon-02, #clinic_info .micon-02{ background-position: 0 -150px}
+#box_media .micon-03, #clinic_info .micon-03{ background-position: 0 -180px}	
 #box_lastnews{ width:290px}
 #box_lastnews h3{
 	display:block;
